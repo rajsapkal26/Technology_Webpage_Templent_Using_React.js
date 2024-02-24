@@ -1,0 +1,396 @@
+
+/* common properties for all pages start */
+
+.style{
+  color: #efa91b;
+}
+.ps{
+  padding-left: 35px;
+}
+.gap{
+  column-gap: 20px;
+}
+
+.para{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.para2{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 57px;
+}
+
+.lh{
+  line-height: 37px;
+}
+
+.pos{
+  position: absolute;
+  bottom: 10px;
+  left: 230px;
+}
+
+.custom-btn {
+  /* height: 40px; */
+  color: black;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-14 {
+  background: #efa91b;
+  border: none;
+  z-index: 1;
+  text-decoration: none;
+}
+.btn-14:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: black;
+  background-image: linear-gradient(315deg, black 0%, black 74%);
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5) 7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-14:hover {
+  color: white;
+}
+.btn-14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn-14:active {
+  top: 2px;
+}
+
+
+.fs {
+  font-size: 29px;
+  line-height: 38px;
+}
+.para {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.he{
+  height: 50vh;
+}
+
+.pos5{
+  position: absolute;
+  left : 20px ;
+  bottom: 0;
+  padding: 10px;
+
+}
+
+.nav-ul2{
+  column-gap: 25px;
+
+}
+.width{
+  width: 100%;
+}
+
+.rounded{
+  border-radius: 70px;
+}
+
+
+
+.w{
+  width: fit-content;
+  background: #ffffff1a;
+}
+.span{
+  color: #efa91b;
+}
+
+
+.i{
+  background: #efa91b;
+  padding: 17px;
+}
+
+
+
+.high:hover{
+  box-shadow: 4px 4px 12px 12px  #8888882a;
+  background-color: #ffffff;
+}
+
+
+
+.pos4{
+  position: absolute;
+  bottom: 195px;
+  left: 42px;
+  background-color: #efa91b;
+}
+
+.scale{
+  overflow: hidden;
+  
+}
+.scale img{
+  transition: 0.4s;
+}
+
+.scale img:hover{
+  transform:scale(1.1)
+}
+
+
+.anchor{
+  text-decoration: none;
+  color: black;
+}
+/* common properties for all pages end */
+
+
+/* Home Section Properties Start */
+
+ /* Hero Section background img */
+
+.Bg-img{
+  background-image: url(./images/background/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+  
+
+
+
+/* section3 background img */
+
+.bg-img2{
+  background-image: url(./images/illustration/111.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+
+/*  section5 Background Img */
+
+.bg-img3{
+  background-image: url(./images/illustration/pattern-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+
+/*  background img of footer  */
+
+.bg-img4{
+  background-image: linear-gradient(90deg, rgba(63,63,71,0.6206057422969187) 100%, rgba(41,43,43,0) 100%), url(./images/illustration/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*  feedbacks section background img's */
+
+.bg-img-feedbacks-1{
+  background-image: url(./images/illustration/team-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  
+}
+.bg-img-feedbacks-2{
+  background-image: url(./images/illustration/team-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.bg-img-feedbacks-3{
+  background-image: url(./images/illustration/team-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+/*  feedbacks section background img's end */
+
+/* Home Section Properties End */
+
+/* Services Section Properties Start */
+
+
+.Services_bg{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/illustration/page-title.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}
+
+.service_section_bg{
+
+  background-image: url(./images/illustration/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+
+
+
+/* Services Section Properties Start */
+
+
+/* media Query Start */
+
+
+@media (min-width:768px){
+
+  .pos4{
+    bottom: 170px;
+    left: 42px;
+  }
+
+
+  .pos7{
+    position: relative;
+  margin: 0 auto;
+  }
+  
+.para{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.bg-img-feedbacks-1{
+  
+  height: 80vh;
+  
+}
+.bg-img-feedbacks-2{
+  
+  height: 80vh;
+}
+.bg-img-feedbacks-3{
+ 
+  height: 80vh;
+}
+
+
+
+
+.fs{
+  font-size: 70px;
+  line-height: 75px;
+}
+
+
+
+}
+
+
+
+
+
+@media (min-width:992px){
+
+  .w2{
+    width: 50%;
+  }
+
+  .fs{
+    font-size: 70px;
+    line-height: 75px;
+  }
+
+  .pos4{
+    
+    bottom: 170px;
+    left: 42px;
+  
+  }
+
+  
+  .para{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  
+  }
+
+.pos7{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.bg-img-feedbacks-1{
+  
+  height: 60vh;
+  
+}
+.bg-img-feedbacks-2{
+  
+  height: 60vh;
+}
+.bg-img-feedbacks-3{
+ 
+  height: 60vh;
+}
+
+.pos2{
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+.pos3{
+  position: absolute;
+  bottom: -50px;
+  right: 180px;
+}
+
+}
+
+

@@ -1,0 +1,18 @@
+.pos7{
+  position: relative;
+margin: 0 auto;
+}
+
+.bgwhite{
+  background-color: white;
+  padding: 30px 25px;
+}
+.bgwhite:hover{
+  background-color:#efa91b;
+}
+.bgwhite ul li a{
+  color: black;
+}
+.bgwhite:hover .hov{
+  color: rgb(255, 255, 255);
+}

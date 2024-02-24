@@ -1,0 +1,46 @@
+.line2{
+  background-color: #efa91b;
+  width: 15px;
+  height: 90px;
+}
+
+.pos2{
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+.pos3{
+  position: absolute;
+  bottom: -50px;
+  right: 180px;
+}
+
+
+.updown-animation{
+  animation-name: infiniteupdown;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .10s;
+}
+@keyframes infiniteupdown{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-40px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+.high{
+  border-top: #efa91b 5px solid;
+  background-color: #e2e4e7;
+  transition: all 0.3s ease; 
+}
+
+

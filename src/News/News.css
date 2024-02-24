@@ -1,0 +1,26 @@
+.news_feed{
+  background-color: #f8f6f1;
+}
+
+.figure-img{
+  width: 130px;
+  height: 130px;
+}
+
+.hover{
+  transition: all ease 0.2s;
+}
+
+.hover:hover{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hover:hover strong{
+  color: black;
+}
+
+.hover strong{
+  color: #6c757d;
+  transition: all ease 0.2s;
+}

@@ -1,0 +1,35 @@
+.img-div{
+  border-right: #efa91b 10px solid;
+}
+
+.bg{
+  background-color: #f4f5f8 ;
+  column-gap: 120px;
+}
+
+.nav-ul{
+  column-gap: 25px;
+  margin-right: 20px;
+}
+
+.copyright-div{
+  background-color: #2c2e33;
+}
+
+
+
+/* Media Query */
+
+
+@media (min-width:992px){
+
+  .column{
+    column-gap: 15px;
+  }
+
+  .select{
+  outline: none;
+  border: none;
+}
+
+}
