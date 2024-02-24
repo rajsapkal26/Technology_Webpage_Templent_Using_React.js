@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e591a0d.css",
+    "main.js": "/static/js/main.6c115388.js",
+    "static/media/1.jpg": "/static/media/1.d9a864403b37fc46c51f.jpg",
+    "static/media/111.jpg": "/static/media/111.eb9c891898c43392afc9.jpg",
+    "static/media/project-2.jpg": "/static/media/project-2.1de308b8ea854f9ee572.jpg",
+    "static/media/service-details.jpg": "/static/media/service-details.57915824bedcab00d8cf.jpg",
+    "static/media/team-1.jpg": "/static/media/team-1.48bb00b6603b084f8b05.jpg",
+    "static/media/team-2.jpg": "/static/media/team-2.dac46cfbd7df9836704e.jpg",
+    "static/media/project-4.jpg": "/static/media/project-4.1c53e91165eb1a2ec1ba.jpg",
+    "static/media/news-details.jpg": "/static/media/news-details.08b48455a151d5b2aa6d.jpg",
+    "static/media/news-1.jpg": "/static/media/news-1.7d9b686db7d1d748f223.jpg",
+    "static/media/news-2.jpg": "/static/media/news-2.a92e7bdc8837fb4ecdcd.jpg",
+    "static/media/project-1.jpg": "/static/media/project-1.7ef49691318f49eeef8f.jpg",
+    "static/media/page-title.jpg": "/static/media/page-title.6420404e849f1b38f6fa.jpg",
+    "static/media/team-3.jpg": "/static/media/team-3.8ebebdc0ba11ce22710b.jpg",
+    "static/media/news-3.jpg": "/static/media/news-3.712c708c359829fad161.jpg",
+    "static/media/about-2.jpg": "/static/media/about-2.ef8d718ec4277aca2b8a.jpg",
+    "static/media/service-3.jpg": "/static/media/service-3.8f893ccd976f6f2a6977.jpg",
+    "static/media/project-3.jpg": "/static/media/project-3.3003b5fcb89b6508ad05.jpg",
+    "static/media/service-1.jpg": "/static/media/service-1.85f425f2d902e6a18e1e.jpg",
+    "static/media/service-2.jpg": "/static/media/service-2.cb7867ab14e5b00a421a.jpg",
+    "static/media/2.jpg": "/static/media/2.2bf3e82da5d8de9ecdff.jpg",
+    "static/media/about-1.jpg": "/static/media/about-1.7edd04a0ec4c0b619d56.jpg",
+    "static/media/contact.jpg": "/static/media/contact.d40e343c4bbaffa06932.jpg",
+    "static/media/project-thumb-1.jpg": "/static/media/project-thumb-1.a29923696634fde3b230.jpg",
+    "static/media/pattern-1.png": "/static/media/pattern-1.a930a73e54269b29d472.png",
+    "static/media/project-thumb-6.jpg": "/static/media/project-thumb-6.387538b1055063293559.jpg",
+    "static/media/image-1.jpg": "/static/media/image-1.25982cf741d352eaaf3d.jpg",
+    "static/media/project-thumb-2.jpg": "/static/media/project-thumb-2.fedda40ea6d92b41ff3c.jpg",
+    "index.html": "/index.html",
+    "main.6e591a0d.css.map": "/static/css/main.6e591a0d.css.map",
+    "main.6c115388.js.map": "/static/js/main.6c115388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e591a0d.css",
+    "static/js/main.6c115388.js"
+  ]
+}
